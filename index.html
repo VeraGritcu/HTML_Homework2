@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  Username:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Password:<br>
+  <input type="text" name="lastname" value="">
+  <br>
+   <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+   </label>
+  <br>
+  <input type="submit" value="Submit">
+  <br>
+  <button style="width:auto;">Login</button>
+  <br>
+  <span class="psw">Forgot <a href="#">password?</a></span>
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
